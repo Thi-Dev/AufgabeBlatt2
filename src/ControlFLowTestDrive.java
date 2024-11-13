@@ -27,7 +27,18 @@ public class ControlFLowTestDrive {
 
 
 
+<<<<<<< HEAD
 
+=======
+        /* introducing a student */
+
+        Student students = new Student();
+        students.name = "Bob";
+        students.studiengang = "Computer Sciences";
+        students.matrikelNummer = 45786486;
+
+        students.greetingStudent();
+>>>>>>> 4e33b40d49eb305f86951f79c17ae1cf6acfa13d
 
 
     }
