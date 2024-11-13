@@ -7,7 +7,7 @@ public class Person {
 
     void greeting(){
         System.out.println("Hello everyone!");
-        System.out.println("My name is " + name + ",nice to meet you ");
+        System.out.println("My name is " + name + ",nice to meet you " );
         System.out.println("------------------------------------------");
     }
 

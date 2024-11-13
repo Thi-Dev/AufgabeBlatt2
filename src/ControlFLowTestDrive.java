@@ -27,14 +27,7 @@ public class ControlFLowTestDrive {
 
 
 
-        /* introducing a student */
 
-        Student students = new Student();
-        students.name = "Bob";
-        students.studiengang = "Computer Sciences";
-        students.matrikelNummer = 45786486;
-
-        students.greetingStudent();
 
 
     }
