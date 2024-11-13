@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class ControlFLowTestDrive {
@@ -10,7 +9,7 @@ public class ControlFLowTestDrive {
         System.out.println ("-----------------------------");
         System.out.println("Where do you live ?");                        // Asking the Address of the user
         String userAdresse = scanner.nextLine();                        // making in a variable his input
-        System.out.println("In " + userAdresse + " should be very beautifull");
+        System.out.println("In " + userAdresse + " should be very beautiful");
         System.out.println ("-----------------------------");
         System.out.println("how often would you repeat the greeting ? ");       // Asking the user for a Loop
         int greetingRepeat = scanner.nextInt();                                 // the repetition is in a variable
@@ -19,27 +18,18 @@ public class ControlFLowTestDrive {
             if(userName.isEmpty()){
                 System.out.println("Error, you should put your name");
             } else {
-                System.out.println("Hello and  welcome "+ userName);
+                System.out.println("Hello and welcome "+ userName);
             }
         }
 
         System.out.println ("-----------------------------");
 
-
-
-<<<<<<< HEAD
-
-=======
-        /* introducing a student */
-
+        // Introduction of a student
         Student students = new Student();
         students.name = "Bob";
         students.studiengang = "Computer Sciences";
         students.matrikelNummer = 45786486;
 
         students.greetingStudent();
->>>>>>> 4e33b40d49eb305f86951f79c17ae1cf6acfa13d
-
-
     }
 }
